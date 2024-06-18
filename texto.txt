@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNDO FEST - Organiza tu fiesta perfecta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #ffab91;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ff7043;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #ff5722;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .service {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: white;
+        }
+        .service h3 {
+            margin-top: 0;
+        }
+        .button {
+            background-color: #ff5722;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            display: inline-block;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MUNDO FEST</h1>
+        <p>¡Organiza tu fiesta perfecta con nosotros!</p>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container" id="inicio">
+        <h2>Bienvenidos a MUNDO FEST</h2>
+        <p>En MUNDO FEST, te ayudamos a crear la fiesta de tus sueños. Desde la planificación hasta la ejecución, estamos aquí para asegurarnos de que tu evento sea un éxito.</p>
+        <a href="#servicios" class="button">Ver Servicios</a>
+    </div>
+    <div class="container" id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>MUNDO FEST es una empresa dedicada a la organización de eventos y fiestas. Con años de experiencia en el sector, nuestro objetivo es hacer que cada celebración sea única e inolvidable.</p>
+    </div>
+    <div class="container" id="servicios">
+        <h2>Servicios</h2>
+        <div class="service">
+            <h3>Planificación de Eventos</h3>
+            <p>Nos encargamos de toda la planificación para que tu evento sea perfecto.</p>
+            <a href="#" class="button">Contratar</a>
+        </div>
+        <div class="service">
+            <h3>Decoración</h3>
+            <p>Ofrecemos servicios de decoración personalizados para cualquier tipo de fiesta.</p>
+            <a href="#" class="button">Contratar</a>
+        </div>
+        <div class="service">
+            <h3>Catering</h3>
+            <p>Deliciosas opciones de catering para deleitar a tus invitados.</p>
+            <a href="#" class="button">Contratar</a>
+        </div>
+        <div class="service">
+            <h3>Entretenimiento</h3>
+            <p>Contrata DJs, bandas, y otros artistas para animar tu fiesta.</p>
+            <a href="#" class="button">Contratar</a>
+        </div>
+    </div>
+    <div class="container" id="contacto">
+        <h2>Contacto</h2>
+        <p>Para más información, puedes ponerte en contacto con nosotros a través del siguiente formulario:</p>
+        <form action="mailto:info@mundofest.com" method="post" enctype="text/plain">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 MUNDO FEST. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
